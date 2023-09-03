@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson13</title>
+</head>
+<body>
+    <h1 align="center" colspan="2">EXAMPLE OF INPUT TYPES</h1>
+    <hr>
+    <table align="center" border="2" width="50%" cellpadding="10">
+        <tr>
+            <td>
+                <label for="name">ENTER YOUR NAME</label>
+            </td>
+            <td>
+                <input type="text" name="name" id="name" required placeholder="ENTER YOUR NAME HERE">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="contact">ENTER YOUR CONTACT</label>
+            </td>
+            <td>
+                <input type="number" name="contact" id="contact" required placeholder="ENTER YOUR CONTACT NUMBER HERE">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">ENTER YOUR EMAIL</label> 
+            </td>
+            <td>
+                <input type="email" name="email" id="email" required placeholder="ENTER YOUR EMAIL HERE">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="password">ENTER YOUR PASSWORD</label> 
+            </td>
+            <td>
+                <input type="password" name="password" id="password" required placeholder="ENTER YOUR PASSWORD HERE">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="address">ENTER YOUR ADDRESS</label> 
+            </td>
+            <td>
+                <textarea name="address" id="address" cols="30" rows="10"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="dob">ENTER YOUR DATE OF BIRTH</label> 
+            </td>
+            <td>
+                <input type="date" name="dob" id="dob" required placeholder="ENTER YOUR DATE OF BIRTH HERE"> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="gender">SELECT YOUR GENDER</label> 
+            </td>
+            <td>
+                <input type="radio" name="gender" id="gender" required value="1">MALE 
+                <input type="radio" name="gender" id="gender" required value="2">FEMALE
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="hobbies">SELECT YOUR HOBBIES</label> 
+            </td>
+            <td>
+                <input type="checkbox" name="hobbies" id="hobbies" required value="1">CRICKET 
+                <input type="checkbox" name="hobbies" id="hobbies" required value="2">FOOTBALL
+                <input type="checkbox" name="hobbies" id="hobbies" required value="3">MUSIC 
+                <input type="checkbox" name="hobbies" id="hobbies" required value="4">CODING
+                <input type="checkbox" name="hobbies" id="hobbies" required value="5">READING  
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="city">SELECT YOUR CITY</label> 
+            </td>
+            <td>
+               <select name="city" id="">
+                <option value="1">BHABNAGAR</option>
+                <option value="2">AHMDABAD</option>
+                <option value="1">GANDHINAGAR</option>
+                <option value="1">RAJKOT</option>
+                <option value="1">KUTCH</option>
+               </select>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2">
+            <input type="submit" value="REGISTER">
+            <input type="reset" value="CLEAR ALL">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
