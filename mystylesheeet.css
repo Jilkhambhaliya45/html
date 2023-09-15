@@ -1,0 +1,105 @@
+*{
+  margin: 0px;
+  padding: 0px;
+ 
+}
+nav{
+  background-color: #414141;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  width: 650px;
+  color: white;
+  text-decoration: none;
+}
+a:link{
+  color: white;
+  text-decoration: none;
+}
+a:visited{
+  color: whitesmoke;
+}
+h3{
+  font-size: 2rem;
+}
+.banner{
+  
+ padding-top: 10px;
+ font-size: 1.5rem;
+ color: white;
+  height: 180px;
+  justify-content: center;
+ 
+  background-color: #414141;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner2{
+  height: 150px;
+  background-color: #414141;
+
+}
+#main{
+ padding-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav2{
+  display: flex;
+  z-index: +1;
+  justify-content: space-evenly;
+  color: white;
+  margin-top: -330px;
+  
+}
+.parentdiv{
+  
+  font-size: 1.5rem ;
+  height: 500px;
+  width: 500px;
+  padding: 25px;
+  
+  background-color: black;
+  margin-left: 230px;
+  position: absolute;
+  
+}
+.childdiv{
+  border: 1px solid white;
+  height: 500px;
+  padding: 25px;
+  padding-right: 80px;
+  width: 500px;
+  background-color: white;
+  margin-top: 80px;
+  margin-right: 800px;
+}
+#about-us{
+  font-size: 3rem;
+  padding-right: 10px;
+  margin-right: 10px;
+  color: white;
+  background-color: #414141;
+}
+#day1-div{
+  background-color: #15274B;
+  color: #BEB260;
+}
+#list{
+  font-size: 2rem;
+ margin-left:    100px;
+}
+.main-div{
+  font-size: 1.5rem;
+ margin-left: 150px;
+ margin-right: 50px;
+ background-color: #15274B;
+ color: #BEB260;
+}
